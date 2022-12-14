@@ -224,7 +224,7 @@ article p{
 }
 
 /* ########## Mobile ########### */
-@media screen and (max-width:680px){
+@media only screen and (max-width: 1024px){
     ul.topnav li:not(:nth-child(1)) {
         display:none;
     }
@@ -273,6 +273,7 @@ article p{
 
     .neo img{
         width: 100%;
+        /* overflow:hidden; */
     }
 
     div.box{
